@@ -40,7 +40,7 @@ function game() {
         console.log( `Winner: ${ playRound( userSelection, computerSelection() ) }` );
     }
 
-    console.log(`\n\nPlayer Points: ${playerPoints}`);
+    console.log(`Player Points: ${playerPoints}`);
     console.log(`Computer Points: ${computerPoints}`);
 
 }
