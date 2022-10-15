@@ -10,26 +10,26 @@ function playRound(playerSelection, computerSelection) {
     console.log(`Computer Selection: ${computerSelection}`);
     
     if (playerSelection == computerSelection) {
-        return "Draw!!\n";
+        return "Draw!!";
     }
     else if ( (playerSelection == "rock" && computerSelection == "scissors") ) {
         playerPoints++;
-        return `You Won! ${playerSelection} beats ${computerSelection}\n`;
+        return `You Won! ${playerSelection} beats ${computerSelection}`;
     }
     
     else if ( (playerSelection == "scissors" && computerSelection == "paper") ) {
         playerPoints++;
-        return `You Won! ${playerSelection} beats ${computerSelection}\n`;
+        return `You Won! ${playerSelection} beats ${computerSelection}`;
     }
 
     else if ( (playerSelection == "paper" && computerSelection == "rock") ) {
         playerPoints++;
-        return `You Won! ${playerSelection} beats ${computerSelection}\n`;
+        return `You Won! ${playerSelection} beats ${computerSelection}`;
     }
 
     else {
         computerPoints++;
-        return `You Lose! ${computerSelection} beats ${playerSelection}\n`
+        return `You Lose! ${computerSelection} beats ${playerSelection}`
     }
 }
 
